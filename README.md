@@ -36,12 +36,12 @@ The election comission has requested additional data to complete the audit. The 
 ## Challenge Summary
 The analysis of the county votes show that:
 - There were 369,711 total votes cast in the election
--The counties were :
+- The counties were :
     - Jefferson
     - Denver
     - Arapahoe
--The county results were :
+- The county results were :
     - Jefferson received 10.5% of the vote and 38,855 number of votes
     - Denver received 82.8% of the vote and 306,055 number of votes
     - Arapahoe recevied 6.7% of the vote and 24,801 number of votes
--The county with the largest turnout was Denver
+- The county with the largest turnout was Denver
