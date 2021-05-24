@@ -45,3 +45,12 @@ The analysis of the county votes show that:
     - Denver received 82.8% of the vote and 306,055 number of votes
     - Arapahoe recevied 6.7% of the vote and 24,801 number of votes
 - The county with the largest turnout was Denver
+
+## Statement to the election Comission
+The code can be used for any election. 
+- For example by changing the information in the csv file the code can be run for any number of counties and candidates.
+- We can also load the data from an excel file. The following code can be added to read from an excel file
+import pandas as pd
+file_to_load = os.path.join("Resources", "Election_results.xlsx")
+xl = pd.ExcelFile(file_to_load)
+print(xl.sheet_names)
