@@ -49,6 +49,11 @@ The analysis of the county votes show that:
 ## Statement to the election Comission
 The code can be used for any election. 
 - For example by changing the information in the csv file the code can be run for any number of counties and candidates.
+- We can also read from a different file by changing the filename election_results.csv in the code line to a different file name in line 9 of the code
+    -  file_to_load = os.path.join("Resources", "election_results.csv")
+- If the new file has the candidate name and county name in a different column we just need to replace the numbers inside the row with the new column numbers in the following lines of the code
+    -  candidate_name = row[2]
+    -  county_name = row[1]
 - We can also load the data from an excel file. The following code can be added to read from an excel file
     - import pandas as pd
     - file_to_load = os.path.join("Resources", "Election_results.xlsx")
